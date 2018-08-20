@@ -12,7 +12,8 @@ for ( var i = 0; i < array_length_1d(movement_inputs); i++){
     if keyboard_check(this_key) {
 		var this_angle = i*90;
 		if(keyboard_check_pressed(ord("S")) && !jumping && !falling) {
-			crawl = !crawl;	
+			crawl = !crawl;
+			break;
 		}
 		if(this_key == ord("A") || this_key == ord("D")) {
 	        move_xinput += lengthdir_x(1, this_angle);
@@ -30,9 +31,9 @@ for ( var i = 0; i < array_length_1d(movement_inputs); i++){
 }
  
 moving = ( point_distance(0,0,move_xinput,0) > 0 );
-jumping = ( point_distance(0,0,0,move_yinput) > 0 );
+jumping = ( point_distance(0,0,0,vspd) > 0 );
 if moving && !jumping {
-    var move_dir = point_direction(0,0,move_xinput,move_yinput);
+    move_dir = point_direction(0,0,move_xinput,move_yinput);
 	if(move_dir > 90 && move_dir < 270) {
 		image_xscale = -1;
 	}
@@ -47,7 +48,7 @@ if moving && !jumping {
 }
 
 if jumping {
-	var move_dir = point_direction(0,0,move_xinput,move_yinput);
+	move_dir = point_direction(0,0,move_xinput,move_yinput);
 	if(move_dir > 90 && move_dir < 270) {
 		image_xscale = -1;
 	}

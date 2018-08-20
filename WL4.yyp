@@ -87,6 +87,14 @@
             }
         },
         {
+            "Key": "2f20ecf1-7fef-4b8f-8382-91eff73e8e9f",
+            "Value": {
+                "id": "8decb2fd-0578-4005-9e69-f2ecd0a67872",
+                "resourcePath": "sprites\\sprCamera\\sprCamera.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "3db217d1-421b-4259-8f9d-6021e35efa24",
             "Value": {
                 "id": "859022a0-0ef8-40ba-a89c-39d4024651f7",
@@ -183,6 +191,14 @@
             }
         },
         {
+            "Key": "a4156444-594e-4179-bfcd-6336ebf4cf77",
+            "Value": {
+                "id": "2bf8f3de-4067-4d10-8de5-054ef059ca74",
+                "resourcePath": "objects\\oHitbox\\oHitbox.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "a9188620-a624-4a5a-83ae-a1b53faf038b",
             "Value": {
                 "id": "9cb4420b-3a8f-4f57-af0f-97a7df180047",
@@ -223,11 +239,27 @@
             }
         },
         {
+            "Key": "cae19d8b-d611-4db1-b278-ca31967e3bb7",
+            "Value": {
+                "id": "6fd6412a-d20b-436c-bc13-349272cbe3ea",
+                "resourcePath": "objects\\oCamera\\oCamera.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
             "Value": {
                 "id": "f0507ea6-dbf0-428b-a7fa-0f15fb1bfe2c",
                 "resourcePath": "options\\windows\\options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "cd857858-c3bb-4cf6-8148-f74c6f77ce1e",
+            "Value": {
+                "id": "fbe43b0b-87ce-4838-92f9-d8aa72426bd9",
+                "resourcePath": "sprites\\sprMainCharJump\\sprMainCharJump.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -243,6 +275,14 @@
             "Value": {
                 "id": "eb7fe1b9-f07e-4537-806f-b0f98e29788a",
                 "resourcePath": "sprites\\sprRed\\sprRed.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "de69a79e-8cd0-4aa2-ac3e-e65156b50948",
+            "Value": {
+                "id": "33cec221-6d4f-4ee6-b116-48fbec1b51c0",
+                "resourcePath": "sprites\\sprHitbox\\sprHitbox.yy",
                 "resourceType": "GMSprite"
             }
         },

@@ -10,6 +10,7 @@ movement_inputs[1] = ord("W");
 movement_inputs[2] = ord("A");
 movement_inputs[3] = ord("S");
 
+move_dir = 0;
 moving = 0;
 jumping = 0;
 crawl = false;
