@@ -4,8 +4,8 @@ var seconds_passed = delta_time/1000000;
 var move_speed_this_frame = move_speed*seconds_passed;
 var jump_speed_this_frame = jump_speed*seconds_passed;
 
-var move_xinput = 0;
-var move_yinput = 0;
+move_xinput = 0;
+move_yinput = 0;
  
 for ( var i = 0; i < array_length_1d(movement_inputs); i++){
     var this_key = movement_inputs[i];
@@ -30,8 +30,8 @@ for ( var i = 0; i < array_length_1d(movement_inputs); i++){
     }
 }
  
-moving = ( point_distance(0,0,move_xinput,0) > 0 );
-jumping = ( point_distance(0,0,0,vspd) > 0 );
+moving = ( point_distance(0,0,move_xinput,0) > 0 ); 
+ 
 if moving && !jumping {
     move_dir = point_direction(0,0,move_xinput,move_yinput);
 	if(move_dir > 90 && move_dir < 270) {
@@ -48,12 +48,10 @@ if moving && !jumping {
 }
 
 if jumping {
-	move_dir = point_direction(0,0,move_xinput,move_yinput);
-	if(move_dir > 90 && move_dir < 270) {
-		image_xscale = -1;
+	move_dir = point_direction(0,0,move_xinput,0);
+	if move_xinput != 0 {
+		sMovementChar(jump_speed_this_frame, move_dir);	
+	} else {
+		sMovementChar(jump_speed_this_frame/16, point_direction(0,0,0,vspd));		
 	}
-	else if(move_dir < 90 || move_dir > 270) {
-		image_xscale = 1;	
-	}
-    sMovementChar(jump_speed_this_frame, move_dir);	
 }
