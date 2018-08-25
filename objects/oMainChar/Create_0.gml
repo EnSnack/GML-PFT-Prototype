@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 move_speed = 200;
-jump_speed = 150;
+jump_speed = 135;
 vspd = 0;
 image_speed = 0;
 
@@ -12,8 +12,8 @@ movement_inputs[3] = ord("S");
 
 move_dir = 0;
 moving = 0;
-jumping = 0;
 crawl = 0;
+jumping = 0;
 falling = 0;
 descending = 0;
 move_xinput = 0;
