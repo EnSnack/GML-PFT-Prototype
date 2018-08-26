@@ -18,11 +18,6 @@ for ( var i = 0; i < array_length_1d(movement_inputs); i++){
 		if(this_key == ord("A") || this_key == ord("D")) {
 	        move_xinput += lengthdir_x(1, this_angle);
 		}
-		if(keyboard_check(ord("W")) && !falling) {
-			if(!crawl) {
-				vspeed = -jump_speed_this_frame;
-			}
-		}
     }
 }
  
