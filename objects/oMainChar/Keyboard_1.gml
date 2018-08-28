@@ -45,4 +45,4 @@ if moving{
 	} else {
 		sMovementChar(jump_speed_this_frame/16, point_direction(0,0,0,vspd));		
 	}
-}
+}*/
