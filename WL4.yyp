@@ -79,6 +79,14 @@
             }
         },
         {
+            "Key": "26a69558-003e-48c2-a9ac-e78f0119abf3",
+            "Value": {
+                "id": "7fe7b665-094d-47a4-9ff8-829322aef76d",
+                "resourcePath": "objects\\oKeys\\oKeys.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "29c6bfc0-320b-4cb8-90ad-8d5501bf5e7a",
             "Value": {
                 "id": "c4f029f8-9beb-44ac-800b-6e44a035ae4b",
@@ -135,6 +143,14 @@
             }
         },
         {
+            "Key": "5cb08656-47e1-4f81-a423-490d1521c268",
+            "Value": {
+                "id": "bac82377-d187-441a-941d-d20c93e7bbd9",
+                "resourcePath": "views\\5cb08656-47e1-4f81-a423-490d1521c268.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "5e6c8218-b390-4d1d-809d-17207d4750a5",
             "Value": {
                 "id": "bcdd32c2-567c-4f91-a859-669484543d7d",
@@ -183,6 +199,14 @@
             }
         },
         {
+            "Key": "94386c3c-d4e6-413c-aa18-698357a0ddf0",
+            "Value": {
+                "id": "f5feb4cc-b0ba-4677-911c-07bbd33711f0",
+                "resourcePath": "sprites\\sprMainCharGP\\sprMainCharGP.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a113827e-a60e-4e2f-ab4b-26ef072f5f6c",
             "Value": {
                 "id": "e0c57a1e-6171-4770-a5d0-4f6f08f21f2a",
@@ -220,6 +244,14 @@
                 "id": "9cb4420b-3a8f-4f57-af0f-97a7df180047",
                 "resourcePath": "options\\linux\\options_linux.yy",
                 "resourceType": "GMLinuxOptions"
+            }
+        },
+        {
+            "Key": "ab144483-722a-473e-8660-097116fe9ec1",
+            "Value": {
+                "id": "b482085f-1a47-45c5-989a-5c184e03589b",
+                "resourcePath": "views\\ab144483-722a-473e-8660-097116fe9ec1.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -339,6 +371,14 @@
             "Value": {
                 "id": "5adc55c8-96ed-4df0-a895-35ad396ecffe",
                 "resourcePath": "sprites\\sprPalmTile\\sprPalmTile.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "f7dcf189-bbdd-4eef-8768-ca81a9d931af",
+            "Value": {
+                "id": "81eba4da-c359-4a3f-91f2-937fa62b9c82",
+                "resourcePath": "sprites\\sprKeys\\sprKeys.yy",
                 "resourceType": "GMSprite"
             }
         },

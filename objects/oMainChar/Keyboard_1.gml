@@ -14,6 +14,9 @@ for ( var i = 0; i < array_length_1d(movement_inputs); i++){
 		if(keyboard_check_pressed(ord("S")) && !falling) {
 			crawl = !crawl;
 			break;
+		} else if(keyboard_check_pressed(ord("S")) && falling && !gp) {
+			gp = !gp;
+			break;
 		}
 		if(this_key == ord("A") || this_key == ord("D")) {
 	        move_xinput += lengthdir_x(1, this_angle);
@@ -31,10 +34,12 @@ if moving{
 	else if(move_dir < 90 || move_dir > 270) {
 		image_xscale = 1;	
 	}
-	if(crawl) {
-		sMovementChar(move_speed_this_frame/2, move_dir);
-	} else {
-		sMovementChar(move_speed_this_frame, move_dir);
+	if !gp {
+		if(crawl) {
+			sMovementChar(move_speed_this_frame/2, move_dir);
+		} else {
+			sMovementChar(move_speed_this_frame, move_dir);
+		}
 	}
 }
 

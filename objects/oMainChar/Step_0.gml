@@ -21,11 +21,13 @@ if(!place_meeting(x,y+2,oWall) && !place_meeting(x,y+6,oSlope)) {
 if(place_meeting(x, y + speed_y, oWall))
 {
 	falling = false;
+	gp = false;
     speed_y = 0;
 }
 if(place_meeting(x, y + speed_y, oSlope))
 {
 	falling = false;
+	gp = false;
 	speed_y = 0;	
 }
 y += speed_y;
